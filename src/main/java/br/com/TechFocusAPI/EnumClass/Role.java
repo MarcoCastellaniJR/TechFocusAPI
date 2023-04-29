@@ -31,15 +31,8 @@ public enum Role {
     private String role;
 
     Role(String role) {
-        this.role = role;
+        this.role = role.toUpperCase();
         System.out.println("Criado " + role);
     }
 
-    public String getRole() {
-        return role;
-    }
-
-    public void setRole(String role) {
-        this.role = role;
-    }
 }
